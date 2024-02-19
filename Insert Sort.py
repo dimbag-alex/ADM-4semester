@@ -11,7 +11,7 @@ def time_counter(func):
     return wraper
 
 
-s = [1000000, 1000000, 59, 29, 32, 23, 1, -1, 9, 19, 17, 31, 23, 46, 92, -1, -1, -1, -1, -1, 1000000]
+#s = [1000000, 1000000, 59, 29, 32, 23, 1, -1, 9, 19, 17, 31, 23, 46, 92, -1, -1, -1, -1, -1, 1000000]
 
 
 # s = [3, 5, 1, 2, 4]
@@ -29,6 +29,6 @@ def insert_sort(s):
 
 #s = random.randint(1, 1000000,)
 # s = [3, 5, 1, 2, 4]
-s = [random.randint(-1000000, 1000000) for _ in range(10000)]
+s = [random.randint(-1000, 1000) for _ in range(10000)]
 #print(s)
 print(insert_sort(s))
