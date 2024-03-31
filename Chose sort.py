@@ -15,4 +15,4 @@ to_be_sorted = [-1, 0, 5, 6, -3, 5, 9, 111]
 print(choose_sort(to_be_sorted))
 
 real_check = [random.randint(-1000,1000) for _ in range(1000)]
-print(choose_sort(real_check) == sorted(real_check)
+print(choose_sort(real_check) == sorted(real_check))
